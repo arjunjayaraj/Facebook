@@ -531,3 +531,14 @@ color:#4E5665;
 	
 	
 }
+.advcolumnimage{
+	bckground-repeat: no-repeat;
+	background-size: 60px 60px;
+	display: block;
+	height: 60px;
+	margin-right: 8px;
+	width: 60px;
+	line-height: 1.34;
+	float: left;
+	
+}
