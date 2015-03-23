@@ -1,0 +1,54 @@
+.whitefont{
+    color: #fff;
+}
+.blackfont{
+	color:#282828 ;
+}
+.blackfontleft{
+	color:#333;
+	
+}
+
+.myhome:HOVER,
+.myhome:ACTIVE,
+.myhome:FOCUS{
+	background-color:#FFF;
+}
+
+ul.dropdown-menu li :HOVER{
+	background-color: #8b9dc3;
+}
+.restprivacy:HOVER{
+	background-color:#E6E6E6;
+}
+.messagebutton:HOVER{
+	background-color: rgba(237, 239, 245, 0.98);
+}
+
+.notificationbutton:HOVER{
+	background-color: #E6E6E6;
+}
+
+.blue,
+.blue:ACTIVE{
+	color:#282828 ;
+}
+.fbcolor{
+	color:#3b5998;
+}
+.orange{
+	color: #FFB870;
+}
+.whitefont:HOVER{
+	background-color:transparent;
+}
+.bluefont{
+    color: #3b5998;
+    font-size:20px;
+}
+.greyfont{
+	color:#282828;
+}
+.bgcolor{
+    background-color:#3b5998;
+}
