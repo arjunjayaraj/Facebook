@@ -8,7 +8,17 @@
 	color:#333;
 	
 }
-
+.green{
+	color: #63A924;
+}
+.row{
+	 background-color:#edf0f5; /*#F0F0F0;*/
+	}
+	
+.lfcolumn li:HOVER{
+	background-color: #E6E6E6;
+	
+}
 .myhome:HOVER,
 .myhome:ACTIVE,
 .myhome:FOCUS{
@@ -28,6 +38,9 @@ ul.dropdown-menu li :HOVER{
 .notificationbutton:HOVER{
 	background-color: #E6E6E6;
 }
+.chatdiv:HOVER{
+	background-color:#E6E6E6;
+}
 
 .blue,
 .blue:ACTIVE{
@@ -45,6 +58,9 @@ ul.dropdown-menu li :HOVER{
 .bluefont{
     color: #3b5998;
     font-size:20px;
+}
+.lightgrey{
+color:#9197A3;	
 }
 .greyfont{
 	color:#282828;
