@@ -435,7 +435,11 @@ color: gray;
 .wellstyles {
 	padding: 2px;
 	margin-bottom: 10px;
-	background-color: #E9EAED
+	background-color: #E9EAED;
+}
+.testclass{
+	
+	
 }
 
 .rightcolumnwellstyle{
