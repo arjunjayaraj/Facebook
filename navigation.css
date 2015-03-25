@@ -78,32 +78,31 @@ filter: none;
 .leftalignment>li{
 	padding-left: 0px;
 }
+
+.postsearch:FOCUS,
+.postsearch:AFTER,
+.postsearch:VISITED
+{
+	height: 100px;
+}
+
 .privacymenu{
 	width: 360px;
-	/*min-height:100px;
-	overflow-x:hidden;
-	overflow-y:scroll;*/
 }
+
 .privacybutton{
-	min-height: 65px;
-	padding-left:15px;
-	padding-right:20px;
+	
 	padding-top:8px;
 	padding-bottom:5px;
-	margin-top:0px;
-	margin-right:0px;
-	vertical-align: middle;
-	width:360px;
-	font-size: 12px;
 	text-align: center;
 	background-color: #3b5998;
 	
 }
-.restprivacy{
+.privacymainbutton{
+	
 	min-height: 65px;
 	padding-left:15px;
 	padding-right:20px;
-	padding-top:15px;
 	padding-bottom:5px;
 	margin-top:0px;
 	margin-right:0px;
@@ -111,27 +110,35 @@ filter: none;
 	width:360px;
 	font-size: 12px;
 	
+}
+.restprivacy{
+	
+	padding-top:15px;
 	
 	
 }
 
 .privacytext{
 	text-align: center;
-	font-size: 15px;
-	font-stretch: expanded;
+	
 	color:#fff;
 	padding-top: 30px;
-	vertical-align: middle;
+	
 	font-weight: bold;
+}
+.privacymaintext{
+	
+	font-size: 15px;
+	font-stretch: expanded;
+	vertical-align: middle;
 }
 .restprivacytext{
 	position:relative;
-	font-size: 15px;
-	font-stretch: expanded;
+	
 	color:#4E5665;
 	padding-bottom: 17px;
 	margin-left:20px;
-	vertical-align: middle;
+	
 	text-align: left;
 }
 .privacyglyphicon{
@@ -416,7 +423,10 @@ text-align: center;
 	color:#fff;
 }
 .iconpadding{
-padding: 8px;	
+padding: 8px;
+font-size: 20px;
+color: gray; 
+
 }
 
 	
@@ -424,7 +434,7 @@ padding: 8px;
 .wellstyles {
 	padding: 2px;
 	margin-bottom: 10px;
-	background-color: #edf0f5
+	background-color: #E9EAED;
 }
 
 .rightcolumnwellstyle{
@@ -587,4 +597,34 @@ text-align: left;
 word-wrap:break-word;
 	
 
+}
+
+.postglyph{
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	color: #9197A3;
+}
+.posttext{
+	word-wrap:break-word;
+	font-size: 11px;
+	color: #9197A3;
+	margin-left: 3px;
+	overflow: auto;
+	padding-right: 15px
+}
+.gameimage{
+	width: 30%; 
+	height: 50px; 
+	float: left;
+	border-radius:7px;
+	margin-bottom: 10px
+	
+}
+
+.lfcolumn > li a{
+	padding-bottom: 3px;
+	padding-top: 3px;
+	width:100%;
+	font-size: 14px;
 }

@@ -26,12 +26,12 @@
 
 				<!-- code for search button -->
 				<div class="col-sm-6 col-md-6" style="padding: 5px; height: 40px">
-					<div class="fbimage col-sm-1 col-lg-1 navbar-brand-image-center">
+					<div class="fbimage col-sm-1 col-lg-1 navbar-brand-image-center" style="position: relative;margin-right: -7px;margin-left: 7px;">
 						<img src="fblogo.png" style="height: 25px; width: 30px">
 					</div>
 					<div class="navigtn col-sm-11 col-lg-11 col-md-11 navbar-search"
 						style="height: 25px">
-						<form class="navbar-form" role="search" style="padding: 0px">
+						<form class="navbar-form" role="search"  style="padding: 0px">
 							<div class="input-group col-sm-12 col-md-12 col-lg-12">
 								<input type="text" class="form-control" placeholder="Search"
 									name="q" style="height: 25px">
@@ -57,7 +57,7 @@
 
 					<ul class="navbar-nav mynav">
 						<!-- ----------------------------------------Code for name and home tab-------------- -->
-						<li id="whitefont"><a href="#" style="color: #fff;"><img
+						<li id="whitefont"><a class="myhome" href="#" style="color: #fff;"><img
 								src="cr7.jpeg"
 								style="height: 20px; width: 40px; vertical-align: middle">
 								Arjun</a></li>
@@ -68,7 +68,7 @@
 						<li class="nav nav-tabs ">
 						<li class="dropdown pull-right "><a class="dropdown-toggle "
 							data-toggle="dropdown" href="#"><span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+							<ul class="dropdown-menu privacydropdown" role="menu" aria-labelledby="menu1">
 								<li role="presentation"><a role="menuitem" tabindex="-1"
 									href="#">Create Page</a></li>
 								<li role="presentation" class="divider"></li>
@@ -105,37 +105,37 @@
 
 
 
-								<div class="privacybutton">
+								<div class="privacybutton privacymainbutton">
 									<span> <img class="imageprivacydimension" alt="lock"
 										src="privacylock.png">
-									</span> <span class="privacytext">Privacy Checkup</span> <span>
+									</span> <span class="privacytext privacymaintext">Privacy Checkup</span> <span>
 										<img class="imageprivacydimension pull-right" alt="lock"
 										src="privacy.png" style="height: 55px; width: 80px">
 									</span>
 								</div>
 
 
-								<div class="restprivacy">
+								<div class="restprivacy privacymainbutton">
 									<span class="glyphicon glyphicon-globe privacyglyphicon"></span>
-									<span class="restprivacytext">Who can see my stuff?</span> <span
+									<span class="restprivacytext privacymaintext">Who can see my stuff?</span> <span
 										class="caret "
 										style="margin-left: 100px; margin-bottom: 13px; color: gray;"></span>
 								</div>
 								<div class="divider" style="margin-top: 0px; margin-bottom: 0px"></div>
-								<div class="restprivacy">
+								<div class="restprivacy privacymainbutton">
 									<span class="glyphicon glyphicon-user privacyglyphicon "
 										style="font-size: 20px"> </span><span
 										class="glyphicon glyphicon-user privacyglyphicon"
-										style="font-size: 20px"></span> <span class="restprivacytext">Who
+										style="font-size: 20px"></span> <span class="restprivacytext privacymaintext">Who
 										can contact me?</span> <span class="caret"
 										style="margin-left: 98px; margin-bottom: 13px; color: gray;"></span>
 								</div>
 
 								<div class="divider" style="margin-top: 0px; margin-bottom: 0px"></div>
 
-								<div class="restprivacy">
+								<div class="restprivacy privacymainbutton">
 									<span class="glyphicon glyphicon-ban-circle privacyglyphicon ">
-									</span> <span class="restprivacytext" style="padding-right: 20px">How
+									</span> <span class="restprivacytext privacymaintext" style="padding-right: 20px">How
 										do I stop someone?</span> <span class="caret"
 										style="margin-left: 70px; margin-bottom: 13px; color: gray;"></span>
 								</div>
@@ -591,7 +591,7 @@
 
 
 
-				<ul class="nav nav-pills nav-stacked blackfont lfcolumn" role="tablist">
+				<ul class="nav nav-pills nav-stacked blackfont lfcolumn " role="tablist">
 					<li><a style="padding-left: 0px; padding-bottom: 5px;"><span
 							class="  glyphicon glyphicon-list-alt " aria-hidden="true"></span>
 							<strong><span class="blackfont "> News Feed</span></strong><span
@@ -613,9 +613,9 @@
 
 					<li class="divider"></li>
 				</ul>
-				<ul class="nav nav-pills nav-stacked blackfont" role="tablist"
+				<ul class="nav nav-pills nav-stacked blackfont lfcolumn " role="tablist"
 					style="padding-top: 20px;">
-					<li><a class="grayfont" style="padding-left: 0px"><strong>APPS
+					<li><a class="grayfont" style="padding-left: 0px;color: #9197A3; font-weight: 700PX;"><strong>APPS
 						</strong></a></li>
 					<li class="pLeft"><a style="padding-left: 0px"><span
 							class="glyphicon glyphicon-heart-empty red " aria-hidden="true"></span><span
@@ -637,10 +637,10 @@
 
 				</ul>
 
-				<ul class="nav nav-pills nav-stacked blackfont" role="tablist"
+				<ul class="nav nav-pills nav-stacked blackfont lfcolumn " role="tablist"
 					style="padding-top: 20px;">
 					<li class="divider"></li>
-					<li><a class="grayfont" style="padding-left: 0px"><strong>Groups</strong>
+					<li><a class="grayfont" style="padding-left: 0px;color: #9197A3; font-weight: 700PX;"><strong>Groups</strong>
 					</a></li>
 					<li><a style="padding-left: 0px"><img
 							src="listpic/group1.png" width="20px" /><span class="blackfont ">
@@ -656,10 +656,10 @@
 
 
 
-				<ul class="nav nav-pills nav-stacked blackfont" role="tablist"
+				<ul class="nav nav-pills nav-stacked blackfont lfcolumn " role="tablist"
 					style="padding-top: 20px;">
 					<li class="divider"></li>
-					<li><a class="grayfont" style="padding-left: 0px"><strong>PAGES</strong>
+					<li><a class="grayfont" style="padding-left: 0px;color: #9197A3; font-weight: 700PX;"><strong>PAGES</strong>
 					</a></li>
 					<li><a style="padding-left: 0px"><img
 							src="listpic/newpage.png" width="20px" /><span
@@ -696,17 +696,23 @@
 									class="glyphicon glyphicon-picture" aria-hidden="true"></span>
 									create photo albhums</a></li>
 						</ul>
-						<form class="navbar-form form-group" role="search"
-							style="padding: 0px">
-							<div class="input-group col-sm-12 col-md-12 col-lg-12">
-								<textarea class="form-control" placeholder="Update your status">
-								</textarea>
-								<br> <br>
+					
+					
+					
+					<form class="navbar-form " role="search" data-toggle="collapse" data-target="#searchdemo" style="padding: 0px">
+							<div class="input-group col-sm-12 col-md-12 col-lg-12 postsearch">
+								<input type="text" class="form-control  " placeholder="Whatz on your mind?"
+									name="q" style="height: 60px">
+								
 							</div>
 						</form>
+      			
+					
+						
+						</div>
 
-					</div>
-					<span class="glyphicon glyphicon-camera iconpadding"></span> <span
+					<div id="searchdemo" class="collapse" style="margin-top: 10px">
+					<span class="glyphicon glyphicon-camera iconpadding "></span> <span
 						class="glyphicon glyphicon-user iconpadding"></span> <span
 						class="glyphicon glyphicon-map-marker iconpadding"></span>
 					<ul class="nav navbar-nav navbar-right" style="margin-right: 0px">
@@ -719,21 +725,20 @@
 										class="glyphicon glyphicon-user"></span>Friends <span
 										class="caret"></span>
 								</button>
-								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-									<li role="presentation" class="dropdown-header">Who should
+								<ul class="dropdown-menu " role="menu" aria-labelledby="menu1">
+									<li role="presentation " class="dropdown-header" id="posthover">Who should
 										see this?</li>
-									<li role="presentation"><a role="menuitem" tabindex="-1"
-										href="#"><span class="glyphicon glyphicon-globe"></span>
-											Public
-											<h6>
-												<small>Anyone on facebook</small>
-											</h6></a></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1"
-										href="#"><span class="glyphicon glyphicon-user"></span>
-											Friends
-											<h6>
-												<small>Your friends on facebook</small>
-											</h6></a></li>
+									<li role="presentation" id="posthover"><a id="posthover" role="menuitem" tabindex="-1"
+										href="#"><span class="glyphicon glyphicon-globe postglyph"></span>
+											<strong>Public</strong>
+											<br>
+												<span class="posttext">Anyone on facebook</span>
+											</a></li>
+									<li role="presentation" id="posthover"><a id="posthover" role="menuitem" tabindex="-1"
+										href="#"><span class="glyphicon glyphicon-user postglyph"></span>
+											<strong>Friends</strong>
+											<br>
+												<span class="posttext">Your friends on  the facebook</span> 										</a></li>
 
 
 								</ul>
@@ -746,6 +751,7 @@
 						<li><button type="submit"
 								class="btn btn-default bgcolor whitefont pull-right statusbutton">Post</button></li>
 					</ul>
+					</div>
 
 				</div>
 				<div class="well wellstyles">
@@ -848,7 +854,7 @@
 
 			<!------------------------------------Code for third column --------------------------------------------->
 
-			<div class="col-md-3" style="background-color: #edf0f5">
+			<div class="col-md-3" style="background-color: #E9EAED">
 
 				<div class="panel blackfont">
 
@@ -927,7 +933,67 @@
 							reportedly engaged to Mira Rajput with wedding set for december
 						</span>
 					</div>
-
+					
+					<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#trendingdemo" style="margin-top: 10px;margin-left: 5px;padding-bottom: 0px;padding-top: 0px">See More</button>
+      <div id="trendingdemo" class="collapse">
+			
+			<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>Germanwings</strong></a>: 
+							No Survivors After Jet Carrying 150 Crashed in French Alphs, Official Say
+						</span>
+					</div>
+					<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>Academy Award for Best Picture</strong></a>: 
+							Actor Vin Diesel Predicts 'Furious 7' Will Win 2016 Oscar Awards
+						</span>
+					</div>
+					<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>AB De Villers</strong></a>: South Africa Cricket Captain Says Team is 'Hurting' After New Zealand Loss
+						</span>
+					</div>
+					<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>Nasa</strong></a>: 
+							Space Agenct's Rover Finds Levels of Nitrogen on Mars Needed to Support Life
+						</span>
+					</div>
+					<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>National Filim Awards</strong></a>: 
+							Kangana Ranaut and Vijay Among 2014 Winners
+						</span>
+					</div>
+			
+			
+			</div>
 					<div class="divider clearfix"
 						style="margin-top: 0px; margin-bottom: 0px"></div>
 					<div class="linediv" style="margin-top: 15px;"></div>
@@ -963,6 +1029,36 @@
 							alt="game" src="listpic/game1.png"
 							style="width: 45%; margin-left: 10px">
 					</div>
+					
+					<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#demo" style="margin-top: 10px;margin-left: 10px">See More</button>
+      <div id="demo" class="collapse">
+       
+       
+					<div class="advcolumndiv">
+
+						<img alt="game" src="newlistpic/candycrush.jpeg"
+							style="width: 45%; float: left;height: 110px"> <img
+							alt="game" src="newlistpic/angrybirds.jpeg"
+							style="width: 45%; margin-left: 10px;height: 110px">
+					</div>
+					
+					<div class="advcolumndiv">
+
+						<img alt="game" src="newlistpic/criminalcase.jpeg"
+							style="width: 45%; float: left;height: 110px"> <img
+							alt="game" src="newlistpic/elitepoker.jpeg"
+							style="width: 45%; margin-left: 10px;height: 110px">
+					</div>
+					
+					<div class="advcolumndiv">
+
+						<img alt="game" src="newlistpic/teenpatti.jpg"
+							style="width: 45%; float: left;height: 110px"> <img
+							alt="game" src="newlistpic/fifa15.jpeg"
+							style="width: 45%; margin-left: 10px;height: 110px">
+					</div>
+       
+      </div>
 
 
 					<div class="divider clearfix"
@@ -1022,6 +1118,8 @@
 
 						</span>
 					</div>
+					<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#frienddemo" style="margin-top: 10px;margin-left: 10px">See More</button>
+      <div id="frienddemo" class="collapse">
 					<div class="advcolumndiv">
 
 						<span> <img class="advcolumnimage" alt="pic" src="frk.jpg">
@@ -1049,7 +1147,7 @@
 
 						</span>
 					</div>
-
+					</div>
 
 					<div class="divider clearfix"
 						style="margin-top: 0px; margin-bottom: 0px"></div>
@@ -1077,6 +1175,49 @@
 
 						</span>
 					</div>
+					<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#requestdemo" style="margin-top: 10px;margin-left: 10px">See More</button>
+      <div id="requestdemo" class="collapse">
+					
+					<div class="advcolumndiv">
+
+						<span> <img class="advcolumnimage" alt="pic"
+							src="chatimage/kohli.jpeg">
+						</span> <span class="friendtext"><a><strong>Virat Kohli</strong></a></span><br>
+						<span class="friendtext" style="color: #4E5665">21 Mutual
+							Friends </span> <span class="advcolumnleftbutton">
+							<button type="submit" class="btn btn-default  advcolumnbutton"
+								style="float: none;">
+								<span class="glyphicon glyphicon-user"> </span> Confirm Friend
+							</button>
+
+						</span>
+					</div>
+					
+					<div class="advcolumndiv">
+
+						<span> <img class="advcolumnimage" alt="pic"
+							src="chatimage/dq.jpeg">
+						</span> <span class="friendtext"><a><strong>Dulqer Salman</strong></a></span><br>
+						<span class="friendtext" style="color: #4E5665">102 Mutual
+							Friends </span> <span class="advcolumnleftbutton">
+							<button type="submit" class="btn btn-default  advcolumnbutton"
+								style="float: none;">
+								<span class="glyphicon glyphicon-user"> </span> Confirm Friend
+							</button>
+
+						</span>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					</div>
+					
 					<div class="divider clearfix"
 						style="margin-top: 0px; margin-bottom: 0px"></div>
 					<div class="linediv" style="margin-top: 15px;"></div>
@@ -1126,12 +1267,12 @@
 
 						<div class="rightcolumndiv">
 
-							<img alt="game" src="listpic/nfsnl.jpeg"
-								style="width: 30%; height: 50px; float: left;"> <img
+							<img class = "gameimage" alt="game" src="listpic/nfsnl.jpeg"
+								> <img class = "gameimage"
 								alt="game" src="listpic/game1.png"
-								style="width: 30%; height: 50px; margin-left: 10px;"> <img
+								style="margin-left: 10px;"> <img class = "gameimage"
 								alt="game" src="listpic/candycrush.png"
-								style="width: 30%; height: 50px; float: left; margin-left: 10px;">
+								style="margin-left: 10px;">
 						</div>
 						<div class="rightcolumndiv"
 							style="padding-top: 8px; padding-bottom: 10px;margin-top: 10px;">
@@ -1143,18 +1284,18 @@
 
 						<div class="rightcolumndiv">
 
-							<img alt="game" src="listpic/teenpatti.png"
-								style="width: 30%; height: 50px; float: left;"> <img
+							<img class = "gameimage" alt="game" src="listpic/teenpatti.png"
+								> <img
 								alt="game" src="listpic/elitepoker.png"
-								style="width: 30%; height: 50px; margin-left: 10px;"> <img
+								style="width: 30%; height: 50px; margin-left: 10px;border-radius:7px;"> <img
 								alt="game" src="listpic/criminalcase.png"
-								style="width: 30%; height: 50px; float: left; margin-left: 10px;">
+								style="width: 30%; height: 50px; float: left; margin-left: 10px;border-radius:7px">
 						</div>
 
 					</div>
 														
 					<div class="well wellstyles"style="margin-top: 5px;margin-bottom: 1px;padding-bottom: 1px">
-					<div class="scrollmenu"style="height: 439px;">
+					<div class="scrollmenu"style="height: 458px;">
 					<div class="chatdiv">
 
 							<img class="chatimage" alt="game" src="chatimage/rooney.jpeg">

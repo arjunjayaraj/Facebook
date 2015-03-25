@@ -12,22 +12,30 @@
 	color: #63A924;
 }
 .row{
-	 background-color:#edf0f5; /*#F0F0F0;*/
+	 background-color:	#E9EAED;/*#edf0f5;*/ /*#F0F0F0;*/
 	}
 	
-.lfcolumn li:HOVER{
-	background-color: #E6E6E6;
+.lfcolumn > li a:HOVER{
+	background-color: #d3d3d3;
 	
 }
 .myhome:HOVER,
 .myhome:ACTIVE,
 .myhome:FOCUS{
-	background-color:#FFF;
+	color:#FFF;
+	border-style: hidden;
+	outline: none;
 }
 
-ul.dropdown-menu li :HOVER{
+ul.privacydropdown li :HOVER{
 	background-color: #8b9dc3;
 }
+
+#posthover:HOVER{
+	background-color: #3b5998;
+	
+}
+
 .restprivacy:HOVER{
 	background-color:#E6E6E6;
 }
@@ -41,6 +49,7 @@ ul.dropdown-menu li :HOVER{
 .chatdiv:HOVER{
 	background-color:#E6E6E6;
 }
+
 
 .blue,
 .blue:ACTIVE{

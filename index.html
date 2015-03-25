@@ -31,7 +31,7 @@
 					</div>
 					<div class="navigtn col-sm-11 col-lg-11 col-md-11 navbar-search"
 						style="height: 25px">
-						<form class="navbar-form" role="search" style="padding: 0px">
+						<form class="navbar-form" role="search"  style="padding: 0px">
 							<div class="input-group col-sm-12 col-md-12 col-lg-12">
 								<input type="text" class="form-control" placeholder="Search"
 									name="q" style="height: 25px">
@@ -68,7 +68,7 @@
 						<li class="nav nav-tabs ">
 						<li class="dropdown pull-right "><a class="dropdown-toggle "
 							data-toggle="dropdown" href="#"><span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+							<ul class="dropdown-menu privacydropdown" role="menu" aria-labelledby="menu1">
 								<li role="presentation"><a role="menuitem" tabindex="-1"
 									href="#">Create Page</a></li>
 								<li role="presentation" class="divider"></li>
@@ -591,7 +591,7 @@
 
 
 
-				<ul class="nav nav-pills nav-stacked blackfont lfcolumn" role="tablist">
+				<ul class="nav nav-pills nav-stacked blackfont lfcolumn " role="tablist">
 					<li><a style="padding-left: 0px; padding-bottom: 5px;"><span
 							class="  glyphicon glyphicon-list-alt " aria-hidden="true"></span>
 							<strong><span class="blackfont "> News Feed</span></strong><span
@@ -613,9 +613,9 @@
 
 					<li class="divider"></li>
 				</ul>
-				<ul class="nav nav-pills nav-stacked blackfont" role="tablist"
+				<ul class="nav nav-pills nav-stacked blackfont lfcolumn " role="tablist"
 					style="padding-top: 20px;">
-					<li><a class="grayfont" style="padding-left: 0px"><strong>APPS
+					<li><a class="grayfont" style="padding-left: 0px;color: #9197A3; font-weight: 700PX;"><strong>APPS
 						</strong></a></li>
 					<li class="pLeft"><a style="padding-left: 0px"><span
 							class="glyphicon glyphicon-heart-empty red " aria-hidden="true"></span><span
@@ -637,10 +637,10 @@
 
 				</ul>
 
-				<ul class="nav nav-pills nav-stacked blackfont" role="tablist"
+				<ul class="nav nav-pills nav-stacked blackfont lfcolumn " role="tablist"
 					style="padding-top: 20px;">
 					<li class="divider"></li>
-					<li><a class="grayfont" style="padding-left: 0px"><strong>Groups</strong>
+					<li><a class="grayfont" style="padding-left: 0px;color: #9197A3; font-weight: 700PX;"><strong>Groups</strong>
 					</a></li>
 					<li><a style="padding-left: 0px"><img
 							src="listpic/group1.png" width="20px" /><span class="blackfont ">
@@ -656,10 +656,10 @@
 
 
 
-				<ul class="nav nav-pills nav-stacked blackfont" role="tablist"
+				<ul class="nav nav-pills nav-stacked blackfont lfcolumn " role="tablist"
 					style="padding-top: 20px;">
 					<li class="divider"></li>
-					<li><a class="grayfont" style="padding-left: 0px"><strong>PAGES</strong>
+					<li><a class="grayfont" style="padding-left: 0px;color: #9197A3; font-weight: 700PX;"><strong>PAGES</strong>
 					</a></li>
 					<li><a style="padding-left: 0px"><img
 							src="listpic/newpage.png" width="20px" /><span
@@ -696,17 +696,23 @@
 									class="glyphicon glyphicon-picture" aria-hidden="true"></span>
 									create photo albhums</a></li>
 						</ul>
-						<form class="navbar-form form-group" role="search"
-							style="padding: 0px">
-							<div class="input-group col-sm-12 col-md-12 col-lg-12">
-								<textarea class="form-control" placeholder="Update your status">
-								</textarea>
-								<br> <br>
+					
+					
+					
+					<form class="navbar-form " role="search" data-toggle="collapse" data-target="#searchdemo" style="padding: 0px">
+							<div class="input-group col-sm-12 col-md-12 col-lg-12 postsearch">
+								<input type="text" class="form-control  " placeholder="Whatz on your mind?"
+									name="q" style="height: 60px">
+								
 							</div>
 						</form>
+      			
+					
+						
+						</div>
 
-					</div>
-					<span class="glyphicon glyphicon-camera iconpadding"></span> <span
+					<div id="searchdemo" class="collapse" style="margin-top: 10px">
+					<span class="glyphicon glyphicon-camera iconpadding "></span> <span
 						class="glyphicon glyphicon-user iconpadding"></span> <span
 						class="glyphicon glyphicon-map-marker iconpadding"></span>
 					<ul class="nav navbar-nav navbar-right" style="margin-right: 0px">
@@ -719,21 +725,20 @@
 										class="glyphicon glyphicon-user"></span>Friends <span
 										class="caret"></span>
 								</button>
-								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-									<li role="presentation" class="dropdown-header">Who should
+								<ul class="dropdown-menu " role="menu" aria-labelledby="menu1">
+									<li role="presentation " class="dropdown-header" id="posthover">Who should
 										see this?</li>
-									<li role="presentation"><a role="menuitem" tabindex="-1"
-										href="#"><span class="glyphicon glyphicon-globe"></span>
-											Public
-											<h6>
-												<small>Anyone on facebook</small>
-											</h6></a></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1"
-										href="#"><span class="glyphicon glyphicon-user"></span>
-											Friends
-											<h6>
-												<small>Your friends on facebook</small>
-											</h6></a></li>
+									<li role="presentation" id="posthover"><a id="posthover" role="menuitem" tabindex="-1"
+										href="#"><span class="glyphicon glyphicon-globe postglyph"></span>
+											<strong>Public</strong>
+											<br>
+												<span class="posttext">Anyone on facebook</span>
+											</a></li>
+									<li role="presentation" id="posthover"><a id="posthover" role="menuitem" tabindex="-1"
+										href="#"><span class="glyphicon glyphicon-user postglyph"></span>
+											<strong>Friends</strong>
+											<br>
+												<span class="posttext">Your friends on  the facebook</span> 										</a></li>
 
 
 								</ul>
@@ -746,6 +751,7 @@
 						<li><button type="submit"
 								class="btn btn-default bgcolor whitefont pull-right statusbutton">Post</button></li>
 					</ul>
+					</div>
 
 				</div>
 				<div class="well wellstyles">
@@ -927,7 +933,67 @@
 							reportedly engaged to Mira Rajput with wedding set for december
 						</span>
 					</div>
-
+					
+					<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#trendingdemo" style="margin-top: 10px;margin-left: 5px;padding-bottom: 0px;padding-top: 0px">See More</button>
+      <div id="trendingdemo" class="collapse">
+			
+			<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>Germanwings</strong></a>: 
+							No Survivors After Jet Carrying 150 Crashed in French Alphs, Official Say
+						</span>
+					</div>
+					<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>Academy Award for Best Picture</strong></a>: 
+							Actor Vin Diesel Predicts 'Furious 7' Will Win 2016 Oscar Awards
+						</span>
+					</div>
+					<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>AB De Villers</strong></a>: South Africa Cricket Captain Says Team is 'Hurting' After New Zealand Loss
+						</span>
+					</div>
+					<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>Nasa</strong></a>: 
+							Space Agenct's Rover Finds Levels of Nitrogen on Mars Needed to Support Life
+						</span>
+					</div>
+					<div class="advcolumndiv">
+						<span
+							style="height: 40px; width: 16px; padding: 0px; float: left; margin-right: 5px">
+							<img alt="bday" src="listpic/zigzag.png"
+							style="height: 16px; width: 16px; padding: 0px">
+						</span> <span class="notificationtext"
+							style="color: #4E5665; position: relative;"> <a
+							style="color: #3B5998"><strong>National Filim Awards</strong></a>: 
+							Kangana Ranaut and Vijay Among 2014 Winners
+						</span>
+					</div>
+			
+			
+			</div>
 					<div class="divider clearfix"
 						style="margin-top: 0px; margin-bottom: 0px"></div>
 					<div class="linediv" style="margin-top: 15px;"></div>
@@ -963,6 +1029,36 @@
 							alt="game" src="listpic/game1.png"
 							style="width: 45%; margin-left: 10px">
 					</div>
+					
+					<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#demo" style="margin-top: 10px;margin-left: 10px">See More</button>
+      <div id="demo" class="collapse">
+       
+       
+					<div class="advcolumndiv">
+
+						<img alt="game" src="newlistpic/candycrush.jpeg"
+							style="width: 45%; float: left;height: 110px"> <img
+							alt="game" src="newlistpic/angrybirds.jpeg"
+							style="width: 45%; margin-left: 10px;height: 110px">
+					</div>
+					
+					<div class="advcolumndiv">
+
+						<img alt="game" src="newlistpic/criminalcase.jpeg"
+							style="width: 45%; float: left;height: 110px"> <img
+							alt="game" src="newlistpic/elitepoker.jpeg"
+							style="width: 45%; margin-left: 10px;height: 110px">
+					</div>
+					
+					<div class="advcolumndiv">
+
+						<img alt="game" src="newlistpic/teenpatti.jpg"
+							style="width: 45%; float: left;height: 110px"> <img
+							alt="game" src="newlistpic/fifa15.jpeg"
+							style="width: 45%; margin-left: 10px;height: 110px">
+					</div>
+       
+      </div>
 
 
 					<div class="divider clearfix"
@@ -1022,6 +1118,8 @@
 
 						</span>
 					</div>
+					<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#frienddemo" style="margin-top: 10px;margin-left: 10px">See More</button>
+      <div id="frienddemo" class="collapse">
 					<div class="advcolumndiv">
 
 						<span> <img class="advcolumnimage" alt="pic" src="frk.jpg">
@@ -1049,7 +1147,7 @@
 
 						</span>
 					</div>
-
+					</div>
 
 					<div class="divider clearfix"
 						style="margin-top: 0px; margin-bottom: 0px"></div>
@@ -1077,6 +1175,49 @@
 
 						</span>
 					</div>
+					<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#requestdemo" style="margin-top: 10px;margin-left: 10px">See More</button>
+      <div id="requestdemo" class="collapse">
+					
+					<div class="advcolumndiv">
+
+						<span> <img class="advcolumnimage" alt="pic"
+							src="chatimage/kohli.jpeg">
+						</span> <span class="friendtext"><a><strong>Virat Kohli</strong></a></span><br>
+						<span class="friendtext" style="color: #4E5665">21 Mutual
+							Friends </span> <span class="advcolumnleftbutton">
+							<button type="submit" class="btn btn-default  advcolumnbutton"
+								style="float: none;">
+								<span class="glyphicon glyphicon-user"> </span> Confirm Friend
+							</button>
+
+						</span>
+					</div>
+					
+					<div class="advcolumndiv">
+
+						<span> <img class="advcolumnimage" alt="pic"
+							src="chatimage/dq.jpeg">
+						</span> <span class="friendtext"><a><strong>Dulqer Salman</strong></a></span><br>
+						<span class="friendtext" style="color: #4E5665">102 Mutual
+							Friends </span> <span class="advcolumnleftbutton">
+							<button type="submit" class="btn btn-default  advcolumnbutton"
+								style="float: none;">
+								<span class="glyphicon glyphicon-user"> </span> Confirm Friend
+							</button>
+
+						</span>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					</div>
+					
 					<div class="divider clearfix"
 						style="margin-top: 0px; margin-bottom: 0px"></div>
 					<div class="linediv" style="margin-top: 15px;"></div>
