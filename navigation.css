@@ -158,7 +158,7 @@ filter: none;
 	overflow-y:scroll;
 }
 
-.scrollnav{
+.scrllnav{
 	height:25px;
 	overflow-x:scroll;
 }
@@ -474,12 +474,7 @@ font-size: 12px;
 text-align: center;
 	
 }
-.myleft {
-	padding-left: 15px;
-	margin-top: 7px;
-	height:24px;
-	text-align: justify;
-}
+
 .margin5{
 margin: 5px;	
 }
@@ -496,27 +491,16 @@ margin-top: 5px;
 .fontsize12{
 font-size: 12px;	
 }
-.pLeft {
-	padding-left: 0px;
-	 	
-}
 
-.lefttab{
-	height: 24px;
-	width:100%;
-	text-align: left;
-	vertical-align: middle;
-	padding: 0px;
-	margin-top: 5px;
-	font-size:12px;
-	position: static;	
-}
+
+
 .leftmostcolumn{
 	font-family: Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
 	text-align: left;
 	white-space: nowrap;
 	font-size: 12px;
 	color: #333;
+	 background-color:	#E9EAED
 	}
 	
 .advcolumndiv{
@@ -626,6 +610,6 @@ word-wrap:break-word;
 .lfcolumn > li a{
 	padding-bottom: 3px;
 	padding-top: 3px;
-	width:100%;
+	
 	font-size: 14px;
 }
